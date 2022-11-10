@@ -1,0 +1,428 @@
+.europe-hero img, .europe-video img {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.europe-hero, .europe-spots, .europe-video{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.europe-spots, .europe-explore {
+    background-color: #050505;
+    text-align: center;
+}
+
+.europe-hero .europe-content, .video-content {
+    color: #fff;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    z-index: 10;
+    text-align: left;
+}
+
+.europe-text {
+    margin: 16% 16%;
+}
+
+.europe-hero .europe-content h1{
+    font-size: 8rem;
+}
+
+.video-text h1 {
+    font-size: 6rem;
+}
+
+.europe-nav{
+   margin: 7% 10%;
+}
+
+.nav-icon{
+    display: block;
+    position: absolute;
+    left: 69%;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.europe-nav li{
+    margin: 30% 5%;
+    border-bottom: 2px solid #fff;
+}
+
+.europe-nav li:hover{
+    border-bottom: 2px solid #DF362D;
+    transition: 0.2s all ease-in-out;
+}
+
+.europe-nav li:hover .nav-icon{
+    color: #DF362D;
+    transition: 0.2s all ease-in-out;
+}
+
+.europe-spots {
+    padding-top: 70px;
+}
+
+.fav-spots {
+    text-align: center;
+}
+
+.card-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    height: 32rem;
+    min-width: 22rem;
+    width: 22rem;
+    padding: 1rem;
+}
+
+.card:hover .middle {
+    opacity: 1;
+}
+
+.card:hover img {
+    opacity: 0.3;
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+.card:hover .card-content {
+    opacity: 0.3;
+}
+
+.card-content{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 75%;
+    text-align: center;
+    color: #fff;
+}
+
+.card-content h3 {
+    margin-top: 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.location-btn{
+    background: none;
+    border: none;
+    color: #fff;
+    margin: 3.5% 0% 8% 0%;
+    cursor: pointer;
+}
+
+.location-btn:hover {
+    color: #DF362D;
+}
+
+.card-btn {
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    padding: 1em 3.4em 1em 2em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 115px;
+}
+
+.loc-icon {
+    position: absolute;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.location-text {
+    max-width: 350px;
+    color: #fff;
+}
+
+.fav-spots h1, .europe-explore h1 {
+    color: #fff;
+}
+
+.europe-explore h1{
+    margin-bottom: 40px;
+}
+
+.explore-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin: 0% 20%;
+    padding: 3.5rem;
+}
+
+.explore-text {
+    text-align: left;
+    color: #fff;
+    padding-right: 5rem;
+}
+
+.text-right {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 5rem;
+}
+
+.explore-text p{
+    margin-top: 20px;
+}
+
+.explore-content img {
+    height: 22rem;
+    width: 36rem;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.explore-btn {
+    position: absolute;
+    bottom: 60px;
+    color: #fff;
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    padding: 1em 3.4em 1em 2em;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.btn-right{
+    right: 3.6em;
+}
+
+.explore-icon{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 1.1rem;
+}
+
+.video-text {
+    margin: 12% 6%;
+}
+
+.video-text p{
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.video-button {
+    font-size: 3rem;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.video-img .video-play {
+    position: absolute;
+    font-size: 3rem;
+    top: 40%;
+    left: 44%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.videos {
+    display: flex;
+    position: relative;
+    margin-top: 27%;
+    margin-right: 8%;
+    flex-direction: row;
+}
+
+.video-img {
+    position: relative;
+    margin: 30px;
+    height: 12rem;
+    width: 22rem;
+}
+
+.videos img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.video-player {
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    display: none;
+}
+
+.video-close {
+    font-size: 3rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 940px) {
+    .europe-hero .europe-content{
+        flex-direction: column;
+        top: 0;
+    }
+
+    .europe-hero .europe-content h1 {
+        font-size: 5rem;
+    }
+
+    .europe-text {
+        margin-top: 150px;
+    }
+
+    .nav-icon {
+        display: none;
+    }
+
+    .europe-spots {
+        height: 100%;
+        padding-top: 18rem;
+        padding-bottom: 5rem;
+    }
+
+    .europe-explore {
+        height: 100%;
+    }
+
+    .card-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+        ;
+    }
+
+    .card {
+        height: 25rem;
+        min-width: 18rem;
+        width: 18rem;
+    }
+
+    .card-btn {
+       display: none;
+    }
+
+    .europe-video {
+        height: 100%;
+        background-color: #050505;
+        padding-bottom: 18rem;
+    }
+
+    .explore-content img {
+        height: 12rem;
+        width: 18rem;
+        margin: 1.5rem;
+    }
+
+    .explore-content, .video-content {
+        flex-direction: column;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+
+    .explore-text {
+        text-align: center;
+        color: #fff;
+        padding: 0 2rem;
+        margin-bottom: 5px;
+    }
+    
+    .text-right {
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+        padding: 0 2rem;
+        margin-bottom: 5px;
+    }
+
+    .explore-btn {
+        display: none;
+    }
+
+    .video-player {
+        top: 60%;
+    }
+
+    .video-text {
+        margin-top: 70px;
+    }
+
+    .video-img {
+        margin: 14px;
+    }
+
+    .video-text h1 {
+        font-size: 4rem;
+    }
+
+    .videos {
+        display: flex;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+}
