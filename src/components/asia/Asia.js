@@ -46,9 +46,9 @@ function Asia() {
                     <h1>Asia</h1>
                 </div>
                 <ul className='europe-nav'>
-                    <li><p className='location-text'><HiLocationMarker className='nav-icon' />Come and explore our favorite spots in Asia.</p><Link to='spots' smooth={true} duration={500}><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></Link></li>
-                    <li><p className='location-text'><BsFillSignpostSplitFill className='nav-icon' />Accommodation, Food and Adventures. Things to do in Asia.</p><Link to='explore' smooth={true} duration={500} offset={-70}><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></Link></li>
-                    <li><p className='location-text'><FaPhotoVideo className='nav-icon' />Videos about the beautiful Landscape of Asia.</p><Link to='video' smooth={true} duration={500}><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></Link></li>
+                    <Link to='spots' smooth={true} duration={500}><li><p className='location-text'><HiLocationMarker className='nav-icon' />Come and explore our favorite spots in Asia.</p><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></li></Link>
+                    <Link to='explore' smooth={true} duration={500} offset={-70}><li><p className='location-text'><BsFillSignpostSplitFill className='nav-icon' />Accommodation, Food and Adventures. Things to do in Asia.</p><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></li></Link>
+                    <Link to='video' smooth={true} duration={500}><li><p className='location-text'><FaPhotoVideo className='nav-icon' />Videos about the beautiful Landscape of Asia.</p><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></li></Link>
                 </ul>
             </div>
         </section>
@@ -59,42 +59,42 @@ function Asia() {
                     <div className='card'>
                         <img src={asia1} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Hong Kong</h2>
                             <h3>China</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={asia2} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Sensō-ji</h2>
                             <h3>Japan</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={asia3} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Penang</h2>
                             <h3>Malaysia</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={asia4} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Tokyo</h2>
                             <h3>Japan</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -104,7 +104,6 @@ function Asia() {
             <div className='explore-content'>
                 <div className='explore-text'>
                     <h2>Accommodation</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus blanditiis repellat tempora cupiditate aut qui sint quae sunt, voluptatibus laudantium debitis, reiciendis quasi fugiat, eum sed dignissimos veritatis dicta sapiente.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus blanditiis repellat tempora cupiditate aut qui sint quae sunt, voluptatibus laudantium debitis, reiciendis quasi fugiat, eum sed dignissimos veritatis dicta sapiente.</p>
                     <button className='explore-btn'>View<HiArrowNarrowRight className='explore-icon' /></button>
                 </div>

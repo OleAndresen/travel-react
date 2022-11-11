@@ -46,9 +46,9 @@ function Africa() {
                     <h1>Africa</h1>
                 </div>
                 <ul className='europe-nav'>
-                    <li><p className='location-text'><HiLocationMarker className='nav-icon' />Come and explore our favorite spots in Africa.</p><Link to='spots' smooth={true} duration={500}><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></Link></li>
-                    <li><p className='location-text'><BsFillSignpostSplitFill className='nav-icon' />Accommodation, Food and Adventures. Things to do in Africa.</p><Link to='explore' smooth={true} duration={500} offset={-70}><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></Link></li>
-                    <li><p className='location-text'><FaPhotoVideo className='nav-icon' />Videos about the beautiful Landscape of Africa.</p><Link to='video' smooth={true} duration={500}><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></Link></li>
+                    <Link to='spots' smooth={true} duration={500}><li><p className='location-text'><HiLocationMarker className='nav-icon' />Come and explore our favorite spots in Africa.</p><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></li></Link>
+                    <Link to='explore' smooth={true} duration={500} offset={-70}><li><p className='location-text'><BsFillSignpostSplitFill className='nav-icon' />Accommodation, Food and Adventures. Things to do in Africa.</p><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></li></Link>
+                    <Link to='video' smooth={true} duration={500}><li><p className='location-text'><FaPhotoVideo className='nav-icon' />Videos about the beautiful Landscape of Africa.</p><button className='location-btn'>Explore<HiArrowNarrowRight className='loc-icon' /></button></li></Link>
                 </ul>
             </div>
         </section>
@@ -59,41 +59,41 @@ function Africa() {
                     <div className='card'>
                         <img src={africa1} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Cape Town</h2>
                             <h3>South Africa</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={africa2} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Ethiopia</h2>
                             <h3>Ethiopia</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={africa3} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Hermanus</h2>
                             <h3>South Africa</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                     <div className='card'>
                         <img src={africa4} alt="" />
                         <div className='card-content'>
+                            <div className='middle'>
+                                <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
+                            </div>
                             <h2>Marrakech</h2>
                             <h3>Morocco</h3>
-                        </div>
-                        <div className='middle'>
-                            <button className='card-btn'>More<HiArrowNarrowRight className='explore-icon' /></button>
                         </div>
                     </div>
                 </div>
@@ -104,7 +104,6 @@ function Africa() {
             <div className='explore-content'>
                 <div className='explore-text'>
                     <h2>Accommodation</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus blanditiis repellat tempora cupiditate aut qui sint quae sunt, voluptatibus laudantium debitis, reiciendis quasi fugiat, eum sed dignissimos veritatis dicta sapiente.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus blanditiis repellat tempora cupiditate aut qui sint quae sunt, voluptatibus laudantium debitis, reiciendis quasi fugiat, eum sed dignissimos veritatis dicta sapiente.</p>
                     <button className='explore-btn'>View<HiArrowNarrowRight className='explore-icon' /></button>
                 </div>

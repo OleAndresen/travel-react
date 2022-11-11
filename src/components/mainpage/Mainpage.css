@@ -43,9 +43,16 @@
     margin: 16% 5%;
 }
 
-.text .slide {
-    display: block;
+.text-right {
+    text-align: right;
+}
+
+.loc-text-btn {
     margin-top: 50px;
+}
+
+.carousel-left{
+    margin-left: 40px;
 }
 
 .section {
@@ -92,9 +99,9 @@
 }
 
 .item {
-    height: 32rem;
-    min-width: 22rem;
-    width: 22rem;
+    height: 56vh;
+    min-width: 18.5vw;
+    width: 18.5vw;
     padding: 1rem;
 }
 

@@ -37,7 +37,9 @@ function Mainpage() {
             <div className='text'>
               <h1>Europe</h1>
               <p>Get inspired for your next trip to Europe. Plan your vacation to discover European culture, heritage, architecture, gastronomy and stunning landscapes.</p>
-              <a href="/europe" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+              <div className='loc-text-btn'>
+                <a href="/europe" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+              </div>
             </div>  
             <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}}>
               <motion.div drag='x' dragConstraints={{right: 0, left: -width}} className='inner-carousel'>
@@ -59,7 +61,7 @@ function Mainpage() {
         <section className='asia section'>
           <img src={AsiaPicture} alt=""/>
             <div className='content'>
-              <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}} id='b'>
+              <motion.div ref={carousel} className='carousel carousel-left' whileTap={{cursor: 'grabbing'}} id='b'>
                 <motion.div drag='x' dragConstraints={{right: 0, left: -width}} className='inner-carousel'>
                   {asiaimages.map(image => {
                     return(
@@ -74,10 +76,12 @@ function Mainpage() {
                   <CgArrowLongRight className='arrow-icon' />
                 </div>
               </motion.div>
-              <div className='text' id='a'>
+              <div className='text text-right' id='a'>
                 <h1>Asia</h1>
                 <p>Get inspired for your next trip to Asia. Plan your vacation to discover Asian culture, heritage, architecture, gastronomy and stunning landscapes.</p>
-                <a href="/asia" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+                <div className='loc-text-btn'>
+                  <a href="/asia" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+                </div>
               </div>
             </div>
         </section>
@@ -87,7 +91,9 @@ function Mainpage() {
               <div className='text'>
                 <h1>Africa</h1>
                 <p>Get inspired for your next trip to Africa. Plan your vacation to discover African culture, heritage, architecture, gastronomy and stunning landscapes.</p>
-                <a href="/africa" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+                <div className='loc-text-btn'>
+                  <a href="/africa" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+                </div>
               </div>  
               <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}}>
                 <motion.div drag='x' dragConstraints={{right: 0, left: -width}} className='inner-carousel'>
