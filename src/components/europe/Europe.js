@@ -111,8 +111,8 @@ function Europe() {
                 <img src={Accommodation} alt="" />
             </div>
             <div className='explore-content'>
-                <img src={Food} alt="" />
-                <div className='explore-text text-right'>
+                <img src={Food} alt="" id='b'/>
+                <div className='explore-text text-right' id='a'>
                     <h2>Food</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus blanditiis repellat tempora cupiditate aut qui sint quae sunt, voluptatibus laudantium debitis, reiciendis quasi fugiat, eum sed dignissimos veritatis dicta sapiente.</p>
                     <button className='explore-btn btn-right'>View<HiArrowNarrowRight className='explore-icon' /></button>

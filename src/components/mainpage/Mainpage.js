@@ -59,12 +59,7 @@ function Mainpage() {
         <section className='asia section'>
           <img src={AsiaPicture} alt=""/>
             <div className='content'>
-              <div className='text'>
-                <h1>Asia</h1>
-                <p>Get inspired for your next trip to Asia. Plan your vacation to discover Asian culture, heritage, architecture, gastronomy and stunning landscapes.</p>
-                <a href="/asia" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
-              </div>  
-              <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}}>
+              <motion.div ref={carousel} className='carousel' whileTap={{cursor: 'grabbing'}} id='b'>
                 <motion.div drag='x' dragConstraints={{right: 0, left: -width}} className='inner-carousel'>
                   {asiaimages.map(image => {
                     return(
@@ -79,6 +74,11 @@ function Mainpage() {
                   <CgArrowLongRight className='arrow-icon' />
                 </div>
               </motion.div>
+              <div className='text' id='a'>
+                <h1>Asia</h1>
+                <p>Get inspired for your next trip to Asia. Plan your vacation to discover Asian culture, heritage, architecture, gastronomy and stunning landscapes.</p>
+                <a href="/asia" className='slide'>Explore<HiArrowNarrowRight className='icon' /></a>
+              </div>
             </div>
         </section>
         <section className='africa section'>

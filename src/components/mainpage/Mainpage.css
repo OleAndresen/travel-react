@@ -121,6 +121,13 @@
         top: 0;
     }
 
+    #a{
+        order:1;
+    }
+    #b{
+        order:2;
+    }
+
     .europe .content h1, .asia .content h1, .africa .content h1 {
         font-size: 6rem;
     }
